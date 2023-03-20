@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.240ea691.css",
+    "main.js": "/static/js/main.b3ead309.js",
+    "static/js/787.e253fc0a.chunk.js": "/static/js/787.e253fc0a.chunk.js",
+    "static/media/video.mp4": "/static/media/video.acb5980788250d286dea.mp4",
+    "static/media/GothicA1-Medium.ttf": "/static/media/GothicA1-Medium.6d5144e314e501a11ee7.ttf",
+    "static/media/action_05.png": "/static/media/action_05.a57c4be39dfb6299a222.png",
+    "static/media/comic_01.png": "/static/media/comic_01.eb411f3ff27305e14aa0.png",
+    "static/media/thriller_02.png": "/static/media/thriller_02.f11a78d93d9556e21e52.png",
+    "static/media/thriller_04.png": "/static/media/thriller_04.a672618bb7df52da9a72.png",
+    "static/media/ani_03.png": "/static/media/ani_03.2226edfcd1da23d1cc80.png",
+    "static/media/ani_01.png": "/static/media/ani_01.2313cd8e2bba8b67a8fa.png",
+    "static/media/comic_04.png": "/static/media/comic_04.e43942d01e8189068110.png",
+    "static/media/melo_03.png": "/static/media/melo_03.321a4781a06d60db503e.png",
+    "static/media/melo_04.png": "/static/media/melo_04.778a950486b101202da2.png",
+    "static/media/action_02.png": "/static/media/action_02.6512829decace898c8c9.png",
+    "static/media/action_01.png": "/static/media/action_01.e912755af3890a3337d9.png",
+    "static/media/comic_03.png": "/static/media/comic_03.d351a0f735e4f2054102.png",
+    "static/media/action_06.png": "/static/media/action_06.68f0afac802ed4a8f28c.png",
+    "static/media/thriller_01.png": "/static/media/thriller_01.00d2d5d3f6376b7682f5.png",
+    "static/media/comic_02.png": "/static/media/comic_02.0a93b6c4e5d69f056022.png",
+    "static/media/melo_01.png": "/static/media/melo_01.289425309fd885a09ffe.png",
+    "static/media/action_03.png": "/static/media/action_03.bf5c9956747d32e3906a.png",
+    "static/media/action_04.png": "/static/media/action_04.f102c9dbaaf04d132c2b.png",
+    "static/media/ani_02.png": "/static/media/ani_02.d6ee7bc73d3a79d33e22.png",
+    "static/media/melo_02.png": "/static/media/melo_02.1caf7f446a49e0dafbda.png",
+    "static/media/ani_04.png": "/static/media/ani_04.056436375ef006be8ca0.png",
+    "static/media/thriller_03.png": "/static/media/thriller_03.b0b2474a6fa55b692796.png",
+    "index.html": "/index.html",
+    "main.240ea691.css.map": "/static/css/main.240ea691.css.map",
+    "main.b3ead309.js.map": "/static/js/main.b3ead309.js.map",
+    "787.e253fc0a.chunk.js.map": "/static/js/787.e253fc0a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.240ea691.css",
+    "static/js/main.b3ead309.js"
+  ]
+}
