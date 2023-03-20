@@ -55,8 +55,12 @@ const Modal = ({ youtubeURL, idNum, open, onClose }) => {
                   ))}
                 </p>
               </div>
-              <div className="flex mt-5 ml-5 h-96">
-                <div className="w-2/4 text-white ">
+              <div className="flex mt-5 ml-5 w-4/4 h-96">
+                <div
+                  id="infoArea"
+                  className="w-2/4 text-white"
+                  style={{ minWidth: "180px" }}
+                >
                   <p className="text-xl">
                     {" "}
                     {movieInfo.map((names) => (
@@ -64,22 +68,30 @@ const Modal = ({ youtubeURL, idNum, open, onClose }) => {
                     ))}{" "}
                   </p>
                 </div>
-                <div className="ml-10 mr-5">
+                <div className="ml-5 mr-5">
                   <div className="flex">
-                    <p className="text-xl text-gray-300">감독 </p>
-                    <p className="ml-2 text-xl text-white">
-                      {movieInfo.map((names) => (
-                        <li key={names.id}> {names.director}</li>
-                      ))}
-                    </p>
+                    <div style={{ paddingRight: "3px" }}>
+                      <p className="w-10 text-xl text-gray-300">감독</p>
+                    </div>
+                    <div>
+                      <p className="ml-2 text-xl text-white">
+                        {movieInfo.map((names) => (
+                          <li key={names.id}> {names.director}</li>
+                        ))}
+                      </p>
+                    </div>
                   </div>
                   <div className="flex mt-3">
-                    <p className="text-xl text-gray-300">배우 </p>
-                    <p className="ml-2 text-xl text-white">
-                      {movieInfo.map((names) => (
-                        <li key={names.id}> {names.actor}</li>
-                      ))}
-                    </p>
+                    <div style={{ paddingRight: "3px" }}>
+                      <p className="w-10 text-xl text-gray-300">배우</p>
+                    </div>
+                    <div>
+                      <p className="ml-2 text-xl text-white">
+                        {movieInfo.map((names) => (
+                          <li key={names.id}> {names.actor}</li>
+                        ))}
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
