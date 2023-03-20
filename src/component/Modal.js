@@ -66,7 +66,7 @@ const Modal = ({ youtubeURL, idNum, open, onClose }) => {
                 </div>
                 <div className="ml-10 mr-5">
                   <div className="flex">
-                    <p className="text-xl text-gray-300">감독 :</p>
+                    <p className="text-xl text-gray-300">감독 </p>
                     <p className="ml-2 text-xl text-white">
                       {movieInfo.map((names) => (
                         <li key={names.id}> {names.director}</li>
@@ -74,7 +74,7 @@ const Modal = ({ youtubeURL, idNum, open, onClose }) => {
                     </p>
                   </div>
                   <div className="flex mt-3">
-                    <p className="text-xl text-gray-300">배우 :</p>
+                    <p className="text-xl text-gray-300">배우 </p>
                     <p className="ml-2 text-xl text-white">
                       {movieInfo.map((names) => (
                         <li key={names.id}> {names.actor}</li>
